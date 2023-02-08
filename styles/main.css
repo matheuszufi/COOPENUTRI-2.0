@@ -15,10 +15,11 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 72px;
+
 }
 #coopenutri-left {
     max-width: 600px;
+    padding: 72px;
 
 }
 #coopenutri-left img {   
