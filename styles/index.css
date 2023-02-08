@@ -19,8 +19,22 @@ body {
 }
 
 
+#whatsapp {
+  position: fixed;
+  z-index: 10;
+  bottom: 12px;
+  right: 12px;
 
+}
 
+#whatsapp:hover {
+  scale: 1.4;
+}
+
+#whatsapp img {
+  width: 64px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.42));
+}
 
 
 

@@ -5,7 +5,7 @@
 
 header {
     width: 100%;
-    height: 140px;
+    height: 108px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
@@ -175,19 +175,28 @@ header {
     align-items: center;
     list-style: none;
     color: white;
-    font-family: 'asap';
-    margin: 0px -40px;
-    padding: 0px 40px;
+    /* font-family: 'asap'; */
+    /* margin: 0px -40px;
+    padding: 0px 40px; */
     height: 100%;
     cursor: pointer;
     font-weight: 700;
     /* font-size: 20px; */
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);;
     transition: 0.4s;
 
 }
-#bottom-right ul li a {color: white; text-decoration: none;}
-#bottom-right ul li:hover {
+#bottom-right ul li a {color: rgb(248, 126, 0); text-decoration: none; height: 100%;display: flex;}
+#bottom-right ul li a i {
+    font-size: 40px;
+    margin: 0px 12px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottom-right ul li:hover a {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
