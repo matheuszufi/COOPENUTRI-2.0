@@ -159,6 +159,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: justify;
+    background-color: white;
     
 }
 
@@ -173,7 +174,7 @@ main {
     background: rgb(234, 234, 234);
     justify-content: center;
     text-align: center;
-    padding: 24px;
+    /* padding: 24px; */
 }
 
 
