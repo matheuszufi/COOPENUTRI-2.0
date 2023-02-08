@@ -227,3 +227,13 @@ main {
 #baixe-o-app-imgs img {
     width: 150px;
 }
+
+#baixe-o-app-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#baixe-o-app-btn img {
+    margin: 4px
+}
