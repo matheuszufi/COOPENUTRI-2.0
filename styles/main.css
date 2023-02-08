@@ -14,7 +14,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 48px;
+    padding: 72px;
 }
 #coopenutri-left {
     max-width: 600px;
@@ -57,7 +57,7 @@ main {
 } 
 
 #coopenutri-right {
-    padding: 24px;
+    padding: 48px;
 }
 #coopenutri-right img {
     width: 100px;
@@ -96,11 +96,12 @@ main {
    width: 150px;
 }
 #para-lojistas-left {
-    padding: 24px;
+    padding: 72px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
 
@@ -110,6 +111,7 @@ main {
     justify-content: center;
     align-items: center;
     color:rgb(46, 46, 46);
+    margin-top: 24px;
 }
 #cards i {
     font-size: 40px;
@@ -126,7 +128,7 @@ main {
     /* border-radius: 8px; */
     padding: 12px;
     /* border: 1px solid grey; */
-    margin: 4px;
+    margin: 12px;
     backdrop-filter: blur(3px);
 }
 
@@ -148,9 +150,17 @@ main {
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 90%;
 }
 
+#para-fabricantes-left {
+    padding: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
 
 #para-fabricantes p {
     line-height: 28px;
