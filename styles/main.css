@@ -148,6 +148,7 @@ main {
     justify-content: center;
     text-align: center;
     align-items: center;
+    width: 90%;
 }
 
 
@@ -156,7 +157,14 @@ main {
 }
 
 
-
+#baixe-o-app {
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 163, 26);
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+}
 
 
 
