@@ -92,8 +92,13 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 #para-lojistas p {
     line-height: 28px;
+}
+
+#para-lojistas img {
+   width: 150px;
 }
