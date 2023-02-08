@@ -14,7 +14,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 48px;
 }
 #coopenutri-left {
     max-width: 600px;
@@ -56,7 +56,9 @@ main {
 
 } 
 
-
+#coopenutri-right {
+    padding: 24px;
+}
 #coopenutri-right img {
     width: 100px;
 }
@@ -94,6 +96,7 @@ main {
    width: 150px;
 }
 #para-lojistas-left {
+    padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,7 +121,7 @@ main {
 }
 .card {
     width: 300px;
-    height: 300px;
+    /* height: 300px; */
     /* background-color: rgba(180, 180, 180, 0.2); */
     /* border-radius: 8px; */
     padding: 12px;
