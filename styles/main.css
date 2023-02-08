@@ -20,7 +20,7 @@ main {
 }
 #coopenutri-left {
     max-width: 600px;
-    padding: 20px 72px;
+    padding: 20px 56px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,6 +45,7 @@ main {
     /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
     border: 1px solid rgba(0, 0, 0, 0.2);
     transition: 0.4s;
+    margin:12px 0px;
 }
 
 #main-btn a {
@@ -64,7 +65,7 @@ main {
 } 
 
 #coopenutri-right {
-    padding: 48px 0px;
+    padding: 40px 0px;
 }
 #coopenutri-right img {
     width: 100px;
