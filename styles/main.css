@@ -1,0 +1,66 @@
+main {
+    background-color: white;
+    height: 3000px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#coopenutri {
+    width: 100%;
+    background: rgb(234, 234, 234);
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+#coopenutri-left {
+    max-width: 600px;
+
+}
+#coopenutri-left img {   
+     width: 200px;
+    transition: 0.4s;
+    filter: drop-shadow(1px 1px 1px black);
+    margin: 24px
+}
+
+#main-btn {
+    background-color: rgba(25, 25, 25, 1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    font-weight: 700;
+    /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+}
+
+#main-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+#coopenutri-left p{
+    margin: 12px 0px;
+    text-align: justify;
+    line-height: 28px;
+    border-radius: 4px;
+    padding: 8px;
+    color: rgb(20, 20, 20);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+
+} 
+
+
+#coopenutri-right img {
+    width: 100px;
+}
+
+#imgreverse {
+    transform: rotateY(180deg);
+}
