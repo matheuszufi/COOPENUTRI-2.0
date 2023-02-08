@@ -129,3 +129,28 @@ main {
     margin: 4px;
     backdrop-filter: blur(3px);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#para-fabricantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+#para-fabricantes p {
+    line-height: 28px;
+}
