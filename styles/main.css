@@ -58,6 +58,7 @@ main {
 #coopenutri-left p{
     margin: 12px 0px;
     text-align: justify;
+    font-family: ac;
     line-height: 28px;
     border-radius: 4px;
     /* padding: 8px; */
@@ -190,9 +191,12 @@ main {
 #para-fabricantes-right {
     display: flex;
     padding: 24px;
+    flex-wrap: nowrap;
+
 }
 #para-fabricantes-right img {
-    width: 100px;
+    width: 80px;
+    margin: 0px 20px
 }
 #para-fabricantes p {
     line-height: 28px;
@@ -207,7 +211,7 @@ main {
     background: white;
     justify-content: center;
     text-align: center;
-    padding: 24px;
+    padding: 32px;
     /* overflow: hidden; */
 }
 
