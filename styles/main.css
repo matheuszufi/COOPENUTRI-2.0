@@ -91,7 +91,7 @@ main {
 
 #para-lojistas p {
     line-height: 28px;
-    width: 80%;
+    /* width: 300px; */
 }
 
 #para-lojistas img {
@@ -154,7 +154,7 @@ main {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: white;
+    background: rgb(234, 234, 234);
 }
 
 #para-fabricantes i {
@@ -184,10 +184,10 @@ main {
 #baixe-o-app {
     display: flex;
     flex-direction: column;
-    background: rgb(234, 234, 234);
+    background: white;
     justify-content: center;
     text-align: center;
-    /* padding: 24px; */
+    padding: 24px;
     /* overflow: hidden; */
 }
 

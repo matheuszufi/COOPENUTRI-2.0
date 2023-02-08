@@ -12,6 +12,7 @@
 }
 
 body {
+  /* width: 20vw; */
   background-color: rgb(66, 66, 66);
   overflow-x: hidden;
 }
