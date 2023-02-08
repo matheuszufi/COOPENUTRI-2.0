@@ -137,6 +137,7 @@ header {
 #bottom-container {
     padding: 0px 24px;
     display: flex;
+
     width: 100%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
@@ -155,27 +156,27 @@ header {
     height: 100%;
 }
 #bottom-right {
-    width: 70%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: end;
-text-align: center;
+    text-align: center;
 
 }
 #bottom-right ul {
     display: flex;
     height: 100%;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 #bottom-right ul li {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     list-style: none;
     color: white;
     font-family: 'asap';
-    margin: 0px 0px;
+    margin: 0px -40px;
     padding: 0px 40px;
     height: 100%;
     cursor: pointer;
@@ -183,6 +184,7 @@ text-align: center;
     /* font-size: 20px; */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);;
     transition: 0.4s;
+
 }
 #bottom-right ul li a {color: white; text-decoration: none;}
 #bottom-right ul li:hover {

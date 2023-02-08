@@ -64,3 +64,36 @@ main {
 #imgreverse {
     transform: rotateY(180deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PARA LOJISTAS */
+
+#para-lojistas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#para-lojistas p {
+    line-height: 28px;
+}
