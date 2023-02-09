@@ -130,7 +130,8 @@ main {
 }
 
 #titulos {
-    margin: 32px 0px;
+    /* margin: 32px 0px; */
+    margin-bottom: 2rem;
     /* background-color: red; */
 }
 #cards {
@@ -300,6 +301,6 @@ align-items: start;
 }
 
 
-#titulos {
+/* #titulos {
     margin-bottom: 2rem
-}
+} */
