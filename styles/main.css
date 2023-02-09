@@ -62,7 +62,7 @@ main {
 
 #coopenutri-left p{
     margin: 12px 0px;
-    text-align: justify;
+    /* text-align: justify; */
     /* font-family: ac; */
     line-height: 28px;
     border-radius: 4px;
