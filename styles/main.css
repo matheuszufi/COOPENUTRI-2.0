@@ -147,6 +147,7 @@ main {
     color:rgb(46, 46, 46);
     margin-top: 24px;
     width: 100%;
+    text-align: center;
    
     
 }
@@ -162,7 +163,7 @@ main {
     /* background-color: red; */
     /* font-weight: 300; */
     padding: 0px 48px;
-    width:100%;
+    width:90%;
 
 }
 #cards h1 {
