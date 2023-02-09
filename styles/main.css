@@ -7,7 +7,6 @@ main {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-
 }
 
 #coopenutri {
@@ -19,17 +18,16 @@ main {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
-
 }
+
 #coopenutri-left {
     max-width: 600px;
     padding: 20px 56px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
+
 #coopenutri-left img {   
     width: 200px;
     transition: 0.4s;
@@ -44,8 +42,6 @@ main {
     justify-content: center;
     height: 40px;
     align-items: center;
-    /* font-weight: 300; */
-    /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
     border: 1px solid rgba(0, 0, 0, 0.2);
     transition: 0.4s;
     margin:12px 0px;
@@ -56,27 +52,18 @@ main {
     text-decoration: none;
 }
 
-
-
-
-
 #coopenutri-left p{
     margin: 12px 0px;
-    /* text-align: justify; */
-    /* font-family: ac; */
     line-height: 28px;
     border-radius: 4px;
-    /* padding: 8px; */
     color: rgb(20, 20, 20);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
-
 } 
 
 #bottom-right ul i {
     color: white;
    font-size: 32px;
    text-shadow: 1px 1px 1px black;
-    
 }
 
 #coopenutri-right {
@@ -93,16 +80,10 @@ main {
 
 
 
-
-
-
-
-
-
-/* PARA LOJISTAS */
-/* PARA LOJISTAS */
-/* PARA LOJISTAS */
-
+/*------PARA LOJISTAS------*/
+/*------PARA LOJISTAS------*/
+/*------PARA LOJISTAS------*/
+/*------PARA LOJISTAS------*/
 #para-lojistas {
     display: flex;
     flex-direction: column;
@@ -114,8 +95,6 @@ main {
 #para-lojistas p {
     line-height: 28px;
     font-family: 'ac';
-    /* padding: 28px 0px; */
-    /* width: 300px; */
 }
 
 #para-lojistas img {
@@ -133,6 +112,7 @@ main {
 #titulos {
     margin-bottom: 2rem;
 }
+
 #cards {
     display: flex;
     flex-direction: column;
@@ -155,8 +135,8 @@ main {
     align-items: center;
     padding: 0px 48px;
     width:90%;
-
 }
+
 #cards h1 {
     font-family: 'Roboto';
     font-size: 24px;
@@ -189,6 +169,13 @@ main {
     text-align: start;
 }
 
+
+
+
+/*------PARA FABRICANTES------*/
+/*------PARA FABRICANTES------*/
+/*------PARA FABRICANTES------*/
+/*------PARA FABRICANTES------*/
 #para-fabricantes {
     display: flex;
     justify-content: center;
