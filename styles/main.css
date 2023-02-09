@@ -113,7 +113,7 @@ main {
 #para-lojistas p {
     line-height: 28px;
     font-family: 'ac';
-    padding: 28px 0px;
+    /* padding: 28px 0px; */
     /* width: 300px; */
 }
 
@@ -130,7 +130,7 @@ main {
 }
 
 #titulos {
-    margin: 24px 0px;
+    margin: 32px 0px;
     /* background-color: red; */
 }
 #cards {
@@ -223,7 +223,7 @@ main {
 }
 #para-fabricantes p {
     line-height: 28px;
-    padding: 12px;
+    /* padding: 12px; */
     /* font-family: 'ac'; */
 }
 
