@@ -113,7 +113,7 @@ main {
 #para-lojistas p {
     line-height: 28px;
     font-family: 'ac';
-    padding: 20px 0px;
+    padding: 28px 0px;
     /* width: 300px; */
 }
 
@@ -209,7 +209,7 @@ main {
     
 }
 #para-fabricantes-left h1 {
-    margin: 24px;
+    margin: 36px 0px;
 }
 #para-fabricantes-right {
     display: flex;
@@ -297,4 +297,9 @@ align-items: start;
 #siga-nas-redes-sociais iframe {
     margin: 48px;
     /* box-shadow: 1px 1px 4px black; */
+}
+
+
+#titulos {
+    margin-bottom: 2rem
 }
