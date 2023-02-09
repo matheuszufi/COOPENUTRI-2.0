@@ -129,7 +129,10 @@ main {
     text-align: justify;
 }
 
-
+#titulos {
+    margin: 24px;
+    /* background-color: red; */
+}
 #cards {
     display: flex;
     flex-wrap: wrap;
@@ -140,11 +143,12 @@ main {
 }
 #cards i {
     font-size: 40px;
-    margin: 12px;
+    margin: 0px;
 }
 #cards h1 {
     font-family: 'Roboto';
     font-size: 24px;
+    text-align:start;
 
 }
 .card {
@@ -199,6 +203,9 @@ main {
 
     
 }
+#para-fabricantes-left h1 {
+    margin: 24px;
+}
 #para-fabricantes-right {
     display: flex;
     padding: 24px;
@@ -227,7 +234,7 @@ flex-wrap: wrap;
     /* overflow: hidden; */
 }
 
-
+#baixe-o-app h1 {margin: 24px}
 
 #baixe-o-app-imgs {
 max-width: 500px;
@@ -236,6 +243,9 @@ max-width: 500px;
 #baixe-o-app-imgs p {
     font-weight: 600;
     line-height: 28px;
+    text-align: justify;
+    padding: 24px;
+    font-family: 'ac';
 }
 
 #baixe-o-app-imgs img {
