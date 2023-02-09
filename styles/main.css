@@ -224,7 +224,7 @@ main {
 #para-fabricantes p {
     line-height: 28px;
     /* padding: 12px; */
-    /* font-family: 'ac'; */
+    font-family: 'Roboto';
 }
 
 
@@ -253,7 +253,7 @@ align-items: start;
     line-height: 28px;
     text-align: justify;
     padding: 24px;
-    /* font-family: 'ac'; */
+    font-family: 'Roboto';
 }
 
 #baixe-o-app-imgs img {
