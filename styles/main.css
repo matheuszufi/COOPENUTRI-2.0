@@ -347,9 +347,23 @@ align-items: start;
     /* box-shadow: 1px 1px 4px black; */
 }
 
-
+#siga-nas-redes-sociais-div {
+    display: flex;
+    /* margin: 4px; */
+}
 /* #titulos {
     margin-bottom: 2rem
 } */
 
-
+#instagram-div a img {
+    width: 54px;
+    margin: 4px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+#whatsapp-div a img {
+    width: 64px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+#instagram-div {
+    margin: 0px 4px;
+}
