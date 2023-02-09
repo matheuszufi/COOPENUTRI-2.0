@@ -55,6 +55,10 @@ main {
     text-decoration: none;
 }
 
+
+
+
+
 #coopenutri-left p{
     margin: 12px 0px;
     text-align: justify;
@@ -66,6 +70,13 @@ main {
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
 
 } 
+
+#bottom-right ul i {
+    color: white;
+   font-size: 32px;
+   text-shadow: 1px 1px 1px black;
+    
+}
 
 #coopenutri-right {
     padding: 40px 0px;
@@ -207,33 +218,57 @@ main {
 
 #baixe-o-app {
     display: flex;
-    flex-direction: column;
-    background: white;
-    justify-content: center;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
     text-align: center;
+    background: white;
+flex-wrap: wrap;
     padding: 32px;
     /* overflow: hidden; */
 }
 
 
 
-
-#baixe-o-app-imgs img {
-
+#baixe-o-app-imgs {
+max-width: 500px;
 }
 
 
 
 #baixe-o-app-imgs img {
     width: 150px;
+    margin: 32px
 }
 
 #baixe-o-app-btn {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 24px
 }
 
 #baixe-o-app-btn img {
     margin: 4px
+}
+
+#siga-nas-redes-sociais h3 {
+    font-family: 'ac';
+}
+
+#siga-nas-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#siga-nas-redes-sociais i {
+    font-size: 56px;
+    /* margin: 48px; */
+    cursor: pointer;
+}
+
+#siga-nas-redes-sociais iframe {
+    margin: 48px;
+    /* box-shadow: 1px 1px 4px black; */
 }
