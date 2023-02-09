@@ -122,22 +122,16 @@ main {
    width: 150px;
 }
 #para-lojistas-left {
-    /* padding: 72px; */
     display: flex;
     flex-direction: column;
-    /* justify-content:start; */
-    /* align-items: center; */
-    /* text-align: justify; */
-
 }
+
 #para-lojistas-left-header {
     padding: 72px;
 }
 
 #titulos {
-    /* margin: 32px 0px; */
     margin-bottom: 2rem;
-    /* background-color: red; */
 }
 #cards {
     display: flex;
@@ -149,20 +143,16 @@ main {
     margin-top: 24px;
     width: 100%;
     text-align: center;
-   
-    
 }
+
 #cards i {
     font-size: 40px;
-    /* margin: 0px; */
-
 }
+
 #cards  p {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
-    /* font-weight: 300; */
     padding: 0px 48px;
     width:90%;
 
@@ -172,61 +162,40 @@ main {
     font-size: 24px;
     text-align:start;
     padding: 0px 48px; 
-    /* height: 80px; */
-
 }
+
 .card {
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
-    /* flex-wrap: wrap; */
     justify-content: center;
     text-align: justify;
-    /* height: 300px; */
-    /* background-color: rgba(180, 180, 180, 0.2); */
-    /* border-radius: 8px; */
     padding: 24px 0px;
-    /* border: 1px solid grey; */
-    /* margin: 12px; */
     backdrop-filter: blur(3px);
     background-color: rgb(255, 255, 255);
 }
+
 .card img {
     margin: 24px;
 }
 
-
 #card-text {
-    /* background-color: red; */
     max-width: 800px;
     width:90%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    /* background: red; */
     text-align: start;
 }
 
-
-
-
-
-
-
-
-
 #para-fabricantes {
     display: flex;
-    /* overflow: hidden; */
-    /* flex-direction: column; */
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
     padding: 24px;
-  
 }
 
 #para-fabricantes i {
@@ -241,62 +210,52 @@ main {
     justify-content: center;
     align-items: start;
     text-align: start;
-    max-width: 600px;
-
-
-
-    
+    max-width: 600px; 
 }
+
 #para-fabricantes-left h1 {
     margin: 36px 0px;
 }
+
 #para-fabricantes-right {
     display: flex;
     padding: 40px;
     flex-wrap: nowrap;
-
 }
+
 #para-fabricantes-right img {
     width: 80px;
     margin: 0px 20px
 }
+
 #para-fabricantes p {
     line-height: 28px;
-    /* padding: 12px; */
     font-family: 'Roboto';
 }
 
-
 #baixe-o-app {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-evenly;
     text-align: center;
     background: rgb(234, 234, 234);
     flex-wrap: wrap;
     padding: 32px;
-    /* overflow: hidden; */
-
 }
 
 #baixe-o-app h1 {margin: 24px}
 
 #baixe-o-app-imgs {
-max-width: 500px;
-display: flex;
-flex-direction: column;
-align-items: start;
-/* padding: 36px; */
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 #baixe-o-app-imgs p {
-    /* font-weight: 600; */
     line-height: 28px;
     text-align: start;
     padding: 24px;
-    /* background-color: aqua; */
     font-family: 'Roboto';
-
 }
 
 #baixe-o-app-imgs img {
@@ -305,17 +264,14 @@ align-items: start;
 }
 
 #baixe-o-app-imgs-div {
-    /* background-color: red; */
     width: 100%;
 }
-
 
 #baixe-o-app-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 24px;
-    /* background-color: red; */
     width: 90%;
 }
 
@@ -336,46 +292,38 @@ align-items: start;
     align-items: center;
     justify-content: center;
 }
+
 #siga-nas-redes-sociais a {
     color: rgb(255,121,20);
     padding: 32px
-
 }
 
 #siga-nas-redes-sociais i {
     font-size: 64px;
-    /* margin: 48px; */
     cursor: pointer;
 }
 
 #siga-nas-redes-sociais iframe {
     margin: 36px;
-    /* box-shadow: 1px 1px 4px black; */
 }
 
 #siga-nas-redes-sociais-div {
     display: flex;
-    /* margin: 4px; */
 }
-/* #titulos {
-    margin-bottom: 2rem
-} */
 
 #instagram-div a img {
     width: 40px;
     margin: 4px;
-    /* filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); */
 }
+
 #whatsapp-div a img {
     width: 48px;
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
 }
+
 #instagram-div {
     margin: 1px 4px;
 }
-
-
-
 
 @media only screen and (max-width: 500px) {
     #baixe-o-app-imgs-div img {
