@@ -199,7 +199,12 @@ main {
 #card-text {
     /* background-color: red; */
     max-width: 800px;
- 
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
 }
 
 
