@@ -18,6 +18,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    padding: 24px;
 
 }
 #coopenutri-left {
@@ -223,6 +224,7 @@ main {
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+    padding: 24px;
   
 }
 
@@ -368,7 +370,7 @@ align-items: start;
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
 }
 #instagram-div {
-    margin: 0px 4px;
+    margin: 1px 4px;
 }
 
 
