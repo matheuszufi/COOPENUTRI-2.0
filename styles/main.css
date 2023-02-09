@@ -370,3 +370,12 @@ align-items: start;
 #instagram-div {
     margin: 0px 4px;
 }
+
+
+
+
+@media only screen and (max-width: 500px) {
+    #baixe-o-app-imgs-div img {
+      width: 100px;
+    }
+  }
