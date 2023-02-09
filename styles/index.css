@@ -47,4 +47,10 @@ p {
 
     height: 80px;
   }
+
+}
+@media only screen and (max-width: 800px) {
+  .card {
+    flex-wrap: wrap;
+  }
 }
