@@ -107,6 +107,10 @@ main {
 
 #para-lojistas-left-header {
     padding: 72px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
 }
 
 #titulos {
