@@ -136,11 +136,15 @@ main {
 }
 #cards {
     display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: start;
     color:rgb(46, 46, 46);
     margin-top: 24px;
+    width: 100%;
+   
+    
 }
 #cards i {
     font-size: 40px;
@@ -160,10 +164,11 @@ main {
 
 }
 .card {
-    width: 300px;
+    max-width: 500px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    /* flex-wrap: wrap; */
     /* justify-content: center; */
     /* height: 300px; */
     /* background-color: rgba(180, 180, 180, 0.2); */
@@ -172,11 +177,16 @@ main {
     /* border: 1px solid grey; */
     margin: 12px;
     backdrop-filter: blur(3px);
+    /* background-color: aqua; */
 }
 
 
 
-
+#card-text {
+    /* background-color: red; */
+    /* min-width: 600px; */
+ 
+}
 
 
 
