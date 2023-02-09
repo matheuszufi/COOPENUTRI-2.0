@@ -20,7 +20,7 @@ header {
     height: 32px;
     display: flex;
     align-items: center;
-   
+   transition: 0.4s;
 
 }
 #top-left {

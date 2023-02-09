@@ -6,11 +6,12 @@ function checkPosition() {
   let windowY = window.scrollY;
   if (windowY < scrollPos) {
     // Scrolling UP
-    nav.style.display = "flex";
+    nav.style.height = "32px";
 
   } else {
     // Scrolling DOWN
-    nav.style.display = "none";
+
+    nav.style.height = "0px";
 
   }
   scrollPos = windowY;
