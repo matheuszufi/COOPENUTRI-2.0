@@ -321,7 +321,10 @@ align-items: start;
 }
 
 #siga-nas-redes-sociais h3 {
-    font-family: 'ac';
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    font-style: italic;
 }
 
 #siga-nas-redes-sociais {
@@ -356,12 +359,12 @@ align-items: start;
 } */
 
 #instagram-div a img {
-    width: 54px;
+    width: 40px;
     margin: 4px;
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
 }
 #whatsapp-div a img {
-    width: 64px;
+    width: 48px;
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
 }
 #instagram-div {
