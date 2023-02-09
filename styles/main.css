@@ -152,12 +152,12 @@ main {
 }
 #cards i {
     font-size: 40px;
-    margin: 0px;
+    /* margin: 0px; */
 
 }
 #cards  p {
     /* font-weight: 300; */
-    margin: 20px
+    /* margin: 20px */
 
 }
 #cards h1 {
