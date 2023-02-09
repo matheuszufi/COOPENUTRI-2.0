@@ -121,12 +121,16 @@ main {
    width: 150px;
 }
 #para-lojistas-left {
-    padding: 72px;
+    /* padding: 72px; */
     display: flex;
     flex-direction: column;
-    justify-content:start;
+    /* justify-content:start; */
     /* align-items: center; */
     text-align: justify;
+
+}
+#para-lojistas-left-header {
+    padding: 72px;
 }
 
 #titulos {
@@ -136,10 +140,10 @@ main {
 }
 #cards {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     color:rgb(46, 46, 46);
     margin-top: 24px;
     width: 100%;
@@ -164,27 +168,30 @@ main {
 
 }
 .card {
-    max-width: 500px;
+    width: 100%;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
     /* flex-wrap: wrap; */
-    /* justify-content: center; */
+    justify-content: center;
+    text-align: justify;
     /* height: 300px; */
     /* background-color: rgba(180, 180, 180, 0.2); */
     /* border-radius: 8px; */
     padding: 12px;
     /* border: 1px solid grey; */
-    margin: 12px;
+    /* margin: 12px; */
     backdrop-filter: blur(3px);
     /* background-color: aqua; */
 }
-
+.card img {
+    margin: 24px;
+}
 
 
 #card-text {
     /* background-color: red; */
-    /* min-width: 600px; */
+    max-width: 800px;
  
 }
 
@@ -204,7 +211,7 @@ main {
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    background: rgb(234, 234, 234);
+  
 }
 
 #para-fabricantes i {
@@ -250,10 +257,11 @@ main {
     /* flex-direction: column; */
     justify-content: space-evenly;
     text-align: center;
-    background: white;
+    background: rgb(234, 234, 234);
     flex-wrap: wrap;
     padding: 32px;
     /* overflow: hidden; */
+
 }
 
 #baixe-o-app h1 {margin: 24px}
