@@ -261,6 +261,7 @@ align-items: start;
     line-height: 28px;
     text-align: justify;
     padding: 24px;
+    /* background-color: aqua; */
     font-family: 'Roboto';
 }
 
@@ -269,11 +270,19 @@ align-items: start;
     margin: 32px
 }
 
+#baixe-o-app-imgs-div {
+    /* background-color: red; */
+    width: 100%;
+}
+
+
 #baixe-o-app-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 24px
+    margin: 24px;
+    /* background-color: red; */
+    width: 90%;
 }
 
 #baixe-o-app-btn img {
