@@ -9,7 +9,6 @@ header {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-    /* position: fixed; */
     top: 0;
     z-index: 10;
 }
@@ -21,44 +20,34 @@ header {
     display: flex;
     align-items: center;
    transition: 0.4s;
+}
 
-}
-#top-left {
-    width: 30%;
-}
+#top-left {width: 30%;}
 
 #header-top-container {
     padding: 0px 24px;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    /* background-color: white; */
 }
-
-
 
 #top-left ul {
     display: flex;
     color: white;
     height: 100%;
     font-family: 'gsans';
-    /* background-color: aliceblue; */
     align-items: center;
-
 }
 
 #top-left ul li {
     list-style: none;
     padding: 7px 20px;
-    /* width: 250px; */
     text-align: center;
     cursor: pointer;
     transition: 0.4s;
- 
-}
-#top-left ul li:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
+ }
+
+#top-left ul li:hover {background-color: rgba(255, 255, 255, 0.2);}
 
 #top-li-1 {
     background-color: rgba(0, 0, 0, 0.1);
@@ -70,26 +59,16 @@ header {
 }
 
 #top-li-1 p {margin: 12px;}
-#top-li-1 img {
-    width: 16px;
-    margin: 8px;
-    transition: 0.4s;
-}
+
+#top-li-1 img { width: 16px; margin: 8px; transition: 0.4s;}
 
 #top-li-2 {font-size: 12px;}
-#top-li-2 a {
-    color: white;
-    text-decoration: none;
-}
-#top-li-3 {
-    font-size: 12px;
-    background-color: rgba(255, 255, 255, 0.3);
-}
-#top-li-3 a {
-    color: white;
-    text-decoration: none
-}
 
+#top-li-2 a {color: white; text-decoration: none;}
+
+#top-li-3 { font-size: 12px; background-color: rgba(255, 255, 255, 0.3);}
+
+#top-li-3 a { color: white; text-decoration: none;}
 
 #top-right {
     display: flex;
@@ -98,10 +77,7 @@ header {
     font-family: asap;
     align-items: center;
     margin: 0px 40px;
-    /* background-color: wheat; */
-    width: 70%;
-    
-    
+    width: 70%;     
 }
 
 #top-right input {
@@ -113,38 +89,25 @@ header {
     width: 150px;
     color: rgb(49, 49, 49);
     font-family: 'asap';
- 
 }
 
-#top-right input::placeholder {
-    font-family: 'asap';
-    padding: 4px;
-}
-#top-right i {
+#top-right input::placeholder {font-family: 'asap'; padding: 4px;}
 
-    margin-left: 8px;
-}
-
-
-
+#top-right i {margin-left: 8px;}
 
 #bottom {
     width: 100%;
     height: 108px;
-    /* background: rgb(255, 163, 26); */
     background: rgb(230, 153, 0);
     display: flex;
-    
 }
+
 #bottom-container {
     padding: 0px 24px;
     display: flex;
-
     width: 100%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
-
-
 
 #bottom-left img {
     width: 100px;
@@ -157,6 +120,7 @@ header {
     justify-content: center;
     height: 100%;
 }
+
 #bottom-right {
     width: 80%;
     display: flex;
@@ -171,34 +135,25 @@ header {
     height: 100%;
     justify-content: end;
     align-items: center;
-    /* padding: 16px */
 }
+
 #bottom-right ul li {
     display: flex;
     justify-content: end;
     align-items: center;
     list-style: none;
     color: white;
-    /* font-family: 'asap'; */
-    /* margin: 0px -40px;
-    padding: 0px 40px; */
     height: 100%;
     cursor: pointer;
     height: 100%;
-    /* font-weight: 700; */
-    /* font-size: 20px; */
     padding: 16px;
-  
     transition: 0.4s;
- 
+}
 
-}
-#bottom-right ul a li {
-    height: 100%;
-}
-#bottom-right ul:hover {
-    background-color: rgba(255, 255, 255, 0.1);;
-}
+#bottom-right ul a li {height: 100%;}
+
+#bottom-right ul:hover {background-color: rgba(255, 255, 255, 0.1);}
+
 #bottom-right ul a {
     text-decoration: none;
     font-family: 'Roboto';
@@ -206,21 +161,17 @@ header {
     height: 100%;
 }
 #bottom-right ul li a {color: rgb(248, 126, 0); text-decoration: none; height: 100%;display: flex;}
+
 #bottom-right ul li a i {
     font-size: 40px;
     margin: 0px 12px;
     height: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#bottom-right ul li:hover a {
-    background-color: rgba(255, 255, 255, 0.1);
-}
 
-
-
+#bottom-right ul li:hover a {background-color: rgba(255, 255, 255, 0.1);}
 
 @media only screen and (max-width: 900px) {
     #top {height: 48px;}
