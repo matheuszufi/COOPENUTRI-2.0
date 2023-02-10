@@ -47,6 +47,8 @@ main {
     margin:12px 0px;
 }
 
+#main-btn:hover {opacity: 0.8;}
+
 #main-btn a {
     color: white;
     text-decoration: none;
