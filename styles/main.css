@@ -265,7 +265,10 @@ main {
     flex-wrap: wrap;
     /* padding: 32px; */
     background-image: url(../imgs/baixe_o_app_site.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
     /* background-size: cover; */
+    background-position: right bottom;
 }
 
 #baixe-o-app h1 {margin: 24px}
