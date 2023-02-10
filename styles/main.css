@@ -259,11 +259,11 @@ main {
 
 #baixe-o-app {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     background: rgb(255, 255, 255);
     flex-wrap: wrap;
-    padding: 32px;
+    /* padding: 32px; */
 }
 
 #baixe-o-app h1 {margin: 24px}
@@ -273,6 +273,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: start;
+    padding: 36px
 }
 
 #baixe-o-app-imgs p {
@@ -284,7 +285,8 @@ main {
 
 #baixe-o-app-imgs img {
     width: 150px;
-    margin: 32px
+    margin: 32px;
+    /* height: 40px; */
 }
 
 #baixe-o-app-imgs-div {
@@ -293,14 +295,14 @@ main {
 
 #baixe-o-app-btn {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    /* align-items: center; */
     margin: 24px;
-    width: 90%;
+    width: 100%;
 }
 
 #baixe-o-app-btn img {
-    margin: 4px;
+    margin: 0px 40px;
 }
 
 #siga-nas-redes-sociais p {
@@ -398,25 +400,44 @@ iframe::before {
 
 #baixe-o-app-btn {
     display: flex;
-    background-color: red;
+    width: 100%;
+    /* flex-wrap:nowrap; */
+    /* flex-direction: column; */
+    /* background-color: red; */
 }
 
-
-
+#baixe-o-app-btn p {
+    padding: 4px;
+}
+#text-baixe-o-app h1 {text-align: start; margin:0px 4px;font-family: 'Roboto'; font-style: italic; font-weight: 400; font-size: 3rem;     color: rgb(255,121,20);}
 #divisoria-rs {
-    height: 100px;
+    height: 80px;
     width: 1px;
     background-color: black;
+    margin-top: 10px;
 }
 
 
 
 #text-baixe-o-app {
+    background-image: url(../imgs/baixe_o_app_site.png);
+    
     display: flex;
+    flex-direction: column;
+    /* justify-content: start ; */
+    /* background-color: aqua; */
+    width: 400px;
+    /* background-color: antiquewhite; */
 }
 
 
+#btn-baixe-o-app {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px
 
+;}
 
 @media only screen and (max-width: 500px) {
     #baixe-o-app-imgs-div img {
