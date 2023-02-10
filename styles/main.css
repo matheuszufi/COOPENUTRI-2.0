@@ -172,7 +172,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 0px 48px;
-    width:90%;
+    width:100%;
 }
 
 #cards h1 {
@@ -187,7 +187,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: justify;
+ 
     padding: 24px 0px;
     backdrop-filter: blur(3px);
     background-color: rgb(255, 255, 255);
