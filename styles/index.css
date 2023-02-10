@@ -40,7 +40,9 @@ body {
 p {
   font-size: 16px;
 }
-
+#smallscreen {
+  display: none;
+}
 
 @media only screen and (min-width: 1113px) {
   #cards h1 {
@@ -53,6 +55,13 @@ p {
   .card {
     flex-wrap: wrap;
   }
+  #smallscreen {
+    display: flex;
+  }
+  #largescreen {
+    display: none;
+  }
+
 }
 
 
@@ -60,3 +69,4 @@ p {
   opacity: 0.8;
   cursor: pointer;
 }
+
