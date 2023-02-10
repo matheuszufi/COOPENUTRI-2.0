@@ -20,8 +20,8 @@ main {
     padding:60px 20px;
     background-image: url(../imgs/Banner_principal.jpg);
     /* background-size:98%; */
-    /* background-position: center; */
-    /* background-size:cover; */
+    background-position: center;
+    background-size:cover;
     min-height: 580px;
 
   
@@ -127,7 +127,7 @@ main {
 }
 
 #para-lojistas img {
-    width: 150px;
+    width: 360px;
 }
 #para-lojistas-left {
     display: flex;
@@ -261,7 +261,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    background: rgb(234, 234, 234);
+    background: rgb(255, 255, 255);
     flex-wrap: wrap;
     padding: 32px;
 }
@@ -269,7 +269,7 @@ main {
 #baixe-o-app h1 {margin: 24px}
 
 #baixe-o-app-imgs {
-    max-width: 500px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -394,6 +394,29 @@ iframe::before {
     height: 1px;
     background-color: rgba(70, 70, 70, 0.8);
 }
+
+
+#baixe-o-app-btn {
+    display: flex;
+    background-color: red;
+}
+
+
+
+#divisoria-rs {
+    height: 100px;
+    width: 1px;
+    background-color: black;
+}
+
+
+
+#text-baixe-o-app {
+    display: flex;
+}
+
+
+
 
 @media only screen and (max-width: 500px) {
     #baixe-o-app-imgs-div img {
