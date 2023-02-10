@@ -106,7 +106,7 @@ main {
 }
 
 #para-lojistas-left-header {
-    padding: 72px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -365,5 +365,8 @@ iframe::before {
 @media only screen and (max-width: 500px) {
     #baixe-o-app-imgs-div img {
       width: 100px;
+    }
+    #para-lojistas-left-header {
+        padding: 44px;
     }
   }
