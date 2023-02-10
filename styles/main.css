@@ -264,6 +264,8 @@ main {
     background: rgb(255, 255, 255);
     flex-wrap: wrap;
     /* padding: 32px; */
+    background-image: url(../imgs/baixe_o_app_site.png);
+    /* background-size: cover; */
 }
 
 #baixe-o-app h1 {margin: 24px}
@@ -302,7 +304,7 @@ main {
 }
 
 #baixe-o-app-btn img {
-    margin: 0px 40px;
+    margin: 0px 4px;
 }
 
 #siga-nas-redes-sociais p {
@@ -413,15 +415,14 @@ iframe::before {
 #divisoria-rs {
     height: 80px;
     width: 1px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
     margin-top: 10px;
 }
 
 
 
 #text-baixe-o-app {
-    background-image: url(../imgs/baixe_o_app_site.png);
-    
+
     display: flex;
     flex-direction: column;
     /* justify-content: start ; */
