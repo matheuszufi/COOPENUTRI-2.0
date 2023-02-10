@@ -39,10 +39,13 @@
 
 #footer-right-right img {
   margin-top: -36px;
-  width: 88px;
+  width: 96px;
 }
 
 #footer-right-left {
   text-align: end;
   line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
