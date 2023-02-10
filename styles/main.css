@@ -348,7 +348,7 @@ iframe::before {
   
   .video-container {
     position: absolute;
-    top: 55%;
+    top: 54%;
     left: 53%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -360,7 +360,12 @@ iframe::before {
   }
 
 
-
+#divisoria {
+    width: 350px;
+    margin-bottom: 36px;
+    height: 1px;
+    background-color: rgba(70, 70, 70, 0.8);
+}
 
 @media only screen and (max-width: 500px) {
     #baixe-o-app-imgs-div img {
