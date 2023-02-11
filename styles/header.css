@@ -195,6 +195,9 @@ header {
         display: flex;
         align-items: center;
     }
+    #bottom-left img {
+        margin-left: 32px;
+    }
 }
 
 
