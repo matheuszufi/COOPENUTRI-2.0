@@ -11,7 +11,7 @@ main {
 #coopenutri {
     width: 100%;
     background: rgb(234, 234, 234);
-    margin-top: 32px;
+    /* margin-top: 32px; */
     display: flex;
     flex-wrap: wrap;
     align-items: start;
@@ -367,4 +367,5 @@ main {
     #para-lojistas-left-header {padding: 44px;}
 
     #baixe-o-app {background-size: 50rem;}
+    #baixe-o-app-imgs { padding: 40px}
 }
