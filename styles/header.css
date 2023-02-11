@@ -110,7 +110,8 @@ header {
 }
 
 #bottom-left img {
-    width: 100px;
+    width: 140px;
+    height: 140px;
     transition: 0.4s;
 }
 
@@ -118,6 +119,7 @@ header {
     width: 20%; 
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
 }
 
